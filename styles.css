@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+/*-----------------------------*/
+/*--DEFAULT CODE---------------*/
+/*-----------------------------*/
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+:root {
+  --primary-color-100: hsl(185, 75%, 39%);
+  /*Dark cyan*/
+  --primary-color-200: hsl(229, 23%, 23%);
+  /*Very dark desaturated blue*/
+  --primary-color-200: hsl(227, 10%, 46%);
+  /*Dark grayish blue*/
+  --neutral-color-000: hsl(0, 0%, 59%);
+  /*Dark gray*/
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+/*# sourceMappingURL=styles.css.map */
