@@ -23,6 +23,12 @@ body {
   font-size: 18px;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /*-----------------------------*/
 /*-- FIRST BACKGROUND----------*/
