@@ -26,6 +26,22 @@ body {
   font-size: 18px;
 }
 
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 /*-----------------------------*/
 /*-- FIRST BACKGROUND----------*/
 /*-----------------------------*/
@@ -33,9 +49,41 @@ body {
   background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: var(--primary-color-100);
+  background-position: 120% 195%, -5% -100%;
   min-height: 100vh;
   width: 100%;
-  background-color: var(--primary-color-100);
-  background-position: 120% 195%, -2% -120%;
+}
+
+/*-----------------------------*/
+/*--PROFILE CARD---------------*/
+/*-----------------------------*/
+.profile-card {
+  max-width: 23rem;
+  height: 25rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.profile-card #header {
+  background-image: url(/images/bg-pattern-card.svg);
+  height: 7rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.profile-card .image-container {
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.profile-card .image-container .image-profile {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.profile-card #footer {
+  min-height: 100px;
 }
 /*# sourceMappingURL=styles.css.map */

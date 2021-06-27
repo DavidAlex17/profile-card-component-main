@@ -44,3 +44,37 @@ body {
   width: 100%;
 }
 
+/*-----------------------------*/
+/*--PROFILE CARD---------------*/
+/*-----------------------------*/
+
+.profile-card {
+  max-width: 23rem;
+  height: 25rem; 
+  border-radius: 20px;
+  background-color: white;
+
+  #header {
+    background-image: url(/images/bg-pattern-card.svg);
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .image-container {
+    background-color: aqua;
+    border-radius: 50%;
+    .image-profile {
+      border-radius: 50%;
+      width: 200px;
+    }
+  }
+
+  #footer {
+    min-height: 100px;
+  }
+}
+
+
+
