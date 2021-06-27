@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Profile card</title>
 </head>
 <body>
 
   <!--BACKGROUND-->
-  <div class="background flexbox">
+  <div class="background flexbox-column">
     
     <!--PROFILE CARD CONTENT-->
     <div class="profile-card">
@@ -19,14 +20,11 @@
       <header id="header"></header>
 
       <!--SECTION TWO-->
-      <div>
+      <div class="flexbox-column">
 
         <!--AVATAR CIRCLE IMAGE-->
         <div class="image-container">
           <img src="/images/image-victor.jpg" alt="image vector jpg" class="image-profile">
-
-          <!--I DON'T KNOW WHAT TO DO WITH THIS-->
-          <!--<img src="/images/favicon-32x32.png" alt="image favicon png" class="image-circle">-->
         </div>
 
         <!--NAME, AGE & LOCATION-->
@@ -38,7 +36,7 @@
       <footer id="footer">
 
         <!--STATS CONTENT-->
-        <ul>
+        <ul class="flexbox-row">
           <li>
             <h2>80K</h2>
             <p> Followers</p>

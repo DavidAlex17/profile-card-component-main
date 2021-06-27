@@ -1,7 +1,7 @@
 /*-----------------------------*/
 /*--DEFAULT CODE---------------*/
 /*-----------------------------*/
-@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,23 +23,6 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 18px;
-}
-
-.flexbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 /*-----------------------------*/
@@ -59,8 +42,19 @@ body {
 /*--PROFILE CARD---------------*/
 /*-----------------------------*/
 .profile-card {
-  max-width: 23rem;
-  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 20px;
   background-color: white;
 }
@@ -76,11 +70,12 @@ body {
 .profile-card .image-container {
   background-color: aqua;
   border-radius: 50%;
+  width: 200px;
 }
 
 .profile-card .image-container .image-profile {
   border-radius: 50%;
-  width: 200px;
+  width: 100px;
 }
 
 .profile-card #footer {

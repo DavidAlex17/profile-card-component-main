@@ -2,7 +2,7 @@
 /*--DEFAULT CODE---------------*/
 /*-----------------------------*/
 
-@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -20,14 +20,6 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 18px;
-}
-
-.flexbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 /*-----------------------------*/
@@ -49,8 +41,10 @@ body {
 /*-----------------------------*/
 
 .profile-card {
-  max-width: 23rem;
-  height: 25rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 20px;
   background-color: white;
 
@@ -65,9 +59,10 @@ body {
   .image-container {
     background-color: aqua;
     border-radius: 50%;
+    width: 200px;
     .image-profile {
       border-radius: 50%;
-      width: 200px;
+      width: 100px;
     }
   }
 
