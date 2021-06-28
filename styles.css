@@ -36,12 +36,6 @@ body {
   background-position: 120% 195%, -5% -100%;
   min-height: 100vh;
   width: 100%;
-}
-
-/*-----------------------------*/
-/*--PROFILE CARD---------------*/
-/*-----------------------------*/
-.profile-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,30 +49,76 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 20px;
+}
+
+/*-----------------------------*/
+/*--PROFILE CARD---------------*/
+/*-----------------------------*/
+.profile-card {
   background-color: white;
+  border-radius: 20px;
+  max-width: 20rem;
+  width: 100%;
+  margin: auto;
 }
 
 .profile-card #header {
   background-image: url(/images/bg-pattern-card.svg);
-  height: 7rem;
+  height: 8rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px 20px 0 0;
 }
 
-.profile-card .image-container {
-  background-color: aqua;
-  border-radius: 50%;
-  width: 200px;
+.profile-card .card-body {
+  text-align: center;
 }
 
-.profile-card .image-container .image-profile {
+.profile-card .card-body .image-container {
+  position: relative;
+  bottom: 60px;
+  left: 126px;
+  width: 30%;
+  background-color: white;
   border-radius: 50%;
-  width: 100px;
+  padding: 5px;
 }
 
-.profile-card #footer {
-  min-height: 100px;
+.profile-card .card-body .image-container .image-profile {
+  border-radius: 50%;
+}
+
+.profile-card .card-body span, .profile-card .card-body p {
+  color: var(--neutral-color-000);
+  font-weight: 400;
+}
+
+.profile-card .card-body h1 {
+  font-weight: 400;
+}
+
+.profile-card .card-body p {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+
+.profile-card #footer ul {
+  list-style: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-card #footer ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.6rem;
 }
 /*# sourceMappingURL=styles.css.map */
