@@ -55,7 +55,7 @@
 /*-----------------------------*/
 .profile-card {
   background: var(--neutral-color-111);
-  max-width: 332px;
+  max-width: 300px;
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
