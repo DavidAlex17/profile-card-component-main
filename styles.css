@@ -33,8 +33,6 @@
   background-attachment: fixed;
   background-color: var(--primary-color-100);
   background-position: 120% 195%, -5% -100%;
-  /*MEDIA QUERY*/
-  /*background-position: -90% -500px, 170% 400px;*/
   min-height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -56,7 +54,7 @@
 /*--PROFILE CARD---------------*/
 /*-----------------------------*/
 .profile-card {
-  background: white;
+  background: var(--neutral-color-111);
   max-width: 332px;
   text-align: center;
   border-radius: 20px;
