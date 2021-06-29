@@ -55,37 +55,38 @@ body {
 /*--PROFILE CARD---------------*/
 /*-----------------------------*/
 .profile-card {
-  background-color: white;
+  background: white;
+  max-width: 332px;
+  text-align: center;
   border-radius: 20px;
-  max-width: 20rem;
-  width: 100%;
-  margin: auto;
+  overflow: hidden;
 }
 
 .profile-card #header {
-  background-image: url(/images/bg-pattern-card.svg);
-  height: 8rem;
-  background-repeat: no-repeat;
+  background: url(./images/bg-pattern-card.svg);
   background-size: cover;
-  border-radius: 20px 20px 0 0;
+  height: 150px;
+  width: 350px;
+}
+
+.profile-card .image-container {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 100px;
+  margin: -50px auto -30px auto;
+  overflow: hidden;
+}
+
+.profile-card .image-container img {
+  display: block;
 }
 
 .profile-card .card-body {
+  height: 150px;
+  line-height: 2.0rem;
+  margin-top: 55px;
+  margin-bottom: -75px;
   text-align: center;
-}
-
-.profile-card .card-body .image-container {
-  position: relative;
-  bottom: 60px;
-  left: 126px;
-  width: 30%;
-  background-color: white;
-  border-radius: 50%;
-  padding: 5px;
-}
-
-.profile-card .card-body .image-container .image-profile {
-  border-radius: 50%;
 }
 
 .profile-card .card-body span, .profile-card .card-body p {
@@ -103,6 +104,7 @@ body {
 }
 
 .profile-card #footer ul {
+  padding-top: 22px;
   list-style: none;
   text-align: center;
   display: -webkit-box;
@@ -120,5 +122,15 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   line-height: 1.6rem;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+}
+
+.attribution a {
+  color: var(--primary-color-200);
 }
 /*# sourceMappingURL=styles.css.map */
