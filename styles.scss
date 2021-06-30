@@ -21,7 +21,7 @@
 }
 
 /*-----------------------------*/
-/*-- FIRST BACKGROUND----------*/
+/*---BACKGROUND----------------*/
 /*-----------------------------*/
 
 .background {
@@ -73,7 +73,6 @@
     line-height: 2.0rem;
     margin-top: 55px;
     margin-bottom: -75px;
-    text-align: center;
 
     span, p {
       color: var(--neutral-color-000);
@@ -90,17 +89,14 @@
     }
   }
 
-  #footer {
-    ul {
-      padding-top: 22px;
-      list-style: none;
-      text-align: center;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-    }
+  ul {
+    padding-top: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
-    ul li{
+    li{
       padding-top: 1rem;
       padding-bottom: 1rem;
       line-height: 1.6rem;

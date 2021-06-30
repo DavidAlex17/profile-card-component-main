@@ -25,7 +25,7 @@
 }
 
 /*-----------------------------*/
-/*-- FIRST BACKGROUND----------*/
+/*---BACKGROUND----------------*/
 /*-----------------------------*/
 .background {
   background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
@@ -85,7 +85,6 @@
   line-height: 2.0rem;
   margin-top: 55px;
   margin-bottom: -75px;
-  text-align: center;
 }
 
 .profile-card .card-body span, .profile-card .card-body p {
@@ -102,10 +101,9 @@
   padding-bottom: 1rem;
 }
 
-.profile-card #footer ul {
+.profile-card ul {
   padding-top: 22px;
   list-style: none;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +115,7 @@
           align-items: center;
 }
 
-.profile-card #footer ul li {
+.profile-card ul li {
   padding-top: 1rem;
   padding-bottom: 1rem;
   line-height: 1.6rem;
